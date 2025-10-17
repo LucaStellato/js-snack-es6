@@ -15,7 +15,6 @@ const soccerTeams = [
     { name: 'Napoli', points: 0, fouls: 0 },
     { name: 'Roma', points: 0, fouls: 0 }
 ]
-
-function getRndInt(min, max) {
-  return Math.floor(Math.random() * (30 - 1) ) + 1;
-}
+ 
+let  casualNumber =   Math.floor(Math.random() * (30 - 1) ) + 1;
+console.log(casualNumber)
