@@ -17,5 +17,10 @@ let bikeLight= racingBikes[0];
 
 
 for(let i=0; i<racingBikes.length; i++){
-   
+   if(bikeLight.weight>racingBikes[i].weight){
+  bikeLight = racingBikes[i]
+   }
+ 
 }
+
+  console.log(`La bici che pesa di meno é ${bikeLight.name}`)
