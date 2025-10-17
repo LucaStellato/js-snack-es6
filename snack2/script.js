@@ -21,6 +21,7 @@ console.log(casualNumber)
 
 for(let i=0; i<soccerTeams.length; i++){
     soccerTeams[i].points=casualNumber
+    soccerTeams[i].fouls=casualNumber
 }
 
 console.log(soccerTeams)
