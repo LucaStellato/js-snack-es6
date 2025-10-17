@@ -18,15 +18,11 @@ const soccerTeams = [
  const soccerFouls =[]
 
 let  casualNumber =   Math.floor(Math.random() * (30 - 1) ) + 1;
-console.log(casualNumber)
+//console.log(casualNumber)
 
 for(let i=0; i<soccerTeams.length; i++){
     soccerTeams[i].points=casualNumber
     soccerTeams[i].fouls=casualNumber
-}
-
-console.log(soccerTeams)
-for(let i=0; i<soccerTeams.length; i++){
 
 const temp=soccerTeams[i]
     soccerFouls.push({name: temp.name, fouls: temp.fouls});
@@ -34,3 +30,4 @@ const temp=soccerTeams[i]
 
 }
 console.log(soccerFouls)
+
