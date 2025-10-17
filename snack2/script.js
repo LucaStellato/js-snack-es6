@@ -15,6 +15,7 @@ const soccerTeams = [
     { name: 'Napoli', points: 0, fouls: 0 },
     { name: 'Roma', points: 0, fouls: 0 }
 ]
+ const soccerFouls =[]
  
 let  casualNumber =   Math.floor(Math.random() * (30 - 1) ) + 1;
 console.log(casualNumber)
