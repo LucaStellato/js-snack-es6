@@ -18,3 +18,10 @@ const soccerTeams = [
  
 let  casualNumber =   Math.floor(Math.random() * (30 - 1) ) + 1;
 console.log(casualNumber)
+
+for(let i=0; i<soccerTeams.length; i++){
+    soccerTeams[i].points=casualNumber
+}
+
+console.log(soccerTeams)
+
