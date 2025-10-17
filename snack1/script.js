@@ -13,6 +13,7 @@ const racingBikes = [
     {name: 'Cannondale', weight: 7.1}
 ]
 
+let bikeLight= racingBikes[0];
 
 
 for(let i=0; i<racingBikes.length; i++){
